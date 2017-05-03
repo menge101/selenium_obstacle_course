@@ -1,0 +1,3 @@
+# bootstrapped ignores
+*_bootstrapper.sh
+.idea/*
