@@ -1,3 +1,4 @@
 # bootstrapped ignores
 *_bootstrapper.sh
 .idea/*
+node_modules/
