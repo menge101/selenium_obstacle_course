@@ -1,6 +1,7 @@
 import React from 'react';
 import {Col, Jumbotron} from 'react-bootstrap';
 import ClickCounter from './click_counter';
+import RadioSet from "./radio_set";
 
 // takes no props
 export default class Course extends React.Component {
@@ -9,7 +10,7 @@ export default class Course extends React.Component {
         this.state = {};
     }
 
-    render() {
+    static render() {
         return (
             <div id="everything">
                 <Col md={10} mdOffset={1}>
@@ -20,6 +21,9 @@ export default class Course extends React.Component {
                 </Col>
                 <Col md={6} mdOffset={3}>
                     <ClickCounter/>
+                </Col>
+                <Col md={6} mdOffset={3}>
+                    <RadioSet/>
                 </Col>
             </div>
         )
