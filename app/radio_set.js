@@ -20,7 +20,7 @@ export default class RadioSet extends React.Component {
                     <SimpleRadio value="3" checked={this.state.selected_btn === "3"} onChange={this.setSelection}/>
                 </Col>
                 <Col md={10} mdOffset={1}>
-                    <h3>Current Value: {this.state.selected_btn}</h3>
+                    <h4>Current Value: {this.state.selected_btn}</h4>
                 </Col>
             </Row>
         )
