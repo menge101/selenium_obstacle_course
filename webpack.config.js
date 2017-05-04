@@ -8,9 +8,6 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
-        /*noParse: [
-            /aws\-sdk/
-        ],*/
         loaders: [
             {
                 test: /\.js$/,
